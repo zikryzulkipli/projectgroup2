@@ -1,66 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Group Project Proposal
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Group : 2
 
-## About Laravel
+Team mates :
+1. Ahmed Ashraf bin Anuar (2210177)
+2. Muhammad Zikry bin Zulkipli (2219579)
+3. Nur Atiqah Batrisyia binti Azmi (2123218)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Title Of The Project
+BakulFresh
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Introduction Of The Proposed Web Application
+BakulFresh is a web-based application that allow users to order fresh ingredients, just as if they were at the market. Having no transportation to go to the market or find the smell of the market off-putting, BakulFresh provides the best solution. Users can place orders, and their fresh ingredients will be delivered in front of their doorstep. 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## The Objective Of The Proposed Web Application
+1. Convenience : BakulFresh provide a platform to order fresh ingredients online, eliminating the need to visit physical markets. By using BakulFresh, it can save valuable time by simply adding items to the cart and completing the order.
 
-## Learning Laravel
+2. Local Support : BakulFresh collaborates and promotes local businesses, fostering a mutually benficial relationship. By sourcing fresh ingredients directly from sellers to customers, we can contribute to their income while ensuring quality to the users.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+3.  Halal and Freshness Assurance : BakulFresh ensures that all ingredients are Halal as it caters to Muslim communities from Muslim businesses. It also maintain the quality and freshness of ingredients during doorstep delivery.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Features And Functionalities Of The Proposed Web Application
+1. User Registration and Login - user can create accounts using their email and can update their personal information, delivery addresses and payment methods.
+2. Product Browsing and Search - Ingredients are categorized for easy navigation, specific items can be search by keywords.
+3. Product Details - Each product has description, price per weight and availability.
+4. Ordering - User can add items to cart and choose from different sellers. User can edit and remove items from cart.
+5. Checkout and Payment - Detailed order summary will be show before final purchase. It use various payment methods such as credit cards, online banking and cash on delivery.
+6. Delivery - User can choose preferred delivery dates and times. User can track the status of their order.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## ER Diagram For Database Table With Relationship
+![ERD-1](https://github.com/imcatiqah/webapp_group2/assets/170592429/7b35ccb2-50e0-4e06-bfbe-946a9c21e056)
 
-## Laravel Sponsors
+## Sequence Diagram To Represent The Interaction Of The Proposed Web Application
+![sequence-diagram-1](https://github.com/imcatiqah/webapp_group2/assets/170592429/85eb20c6-f8fa-4ed7-880a-b97260dae105)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## References
+1. Hellofresh. (2023). #1 Meal Kit Delivery Service | Fresh Meal Delivery | HelloFresh. Hellofresh. https://www.hellofresh.com/
+2. itsourcecode. (2018, December 5). Frozen Foods Ordering System Database Design. Itsourcecode.com. https://itsourcecode.com/free-projects/database-design-projects/frozen-foods-ordering-system-database-design/
