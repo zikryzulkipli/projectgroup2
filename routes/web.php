@@ -6,9 +6,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/product', function () {
+    return view('product');
+});
+
 Route::get('/checkout', function () {
     return view('checkout');
 });
+
+
+
 
 Route::middleware([
     'auth:sanctum',

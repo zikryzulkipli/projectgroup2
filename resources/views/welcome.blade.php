@@ -1,3 +1,4 @@
+<!--Mainpage View-->
 @extends('master.layout')
 @section('content')
 

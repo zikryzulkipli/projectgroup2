@@ -57,25 +57,26 @@
                         <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                             <div class="navbar-nav mx-auto">
                                 <a href="/" class="nav-item nav-link">Home</a>
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
-                                    <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                        <a href="checkout" class="dropdown-item">Fruits</a>
-                                        <a href="/" class="dropdown-item">Vegetables</a>
-                                        <a href="/" class="dropdown-item">Meat</a>
-                                    </div>
-                                </div>
-                                <a href="/" class="nav-item nav-link">Supplier</a>
+                                <a href="product" class="nav-item nav-link">Product</a>
                                 <a href="/" class="nav-item nav-link">Check Your Delivery</a>
                             </div>
-                            <div class="d-flex m-3 me-0">
+                            {{-- <div class="d-flex m-3 me-0">
                                 <a href="/" class="position-relative me-4 my-auto">
                                     <i class="fa fa-shopping-bag fa-2x"></i>
                                     <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
                                     style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3
                                     </span>
-                                </a>
-                            </div>
+                                </a> --}}
+                                {{-- <div class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle">
+                                        <i class="fas fa-user fa-2x"></i>
+                                    </a>
+                                    <div class="dropdown-menu bg-secondary rounded-0">
+                                        <a href="seller-dashboard" class="dropdown-item">Seller</a>
+                                        <a href="/" class="dropdown-item">Buyer</a>
+                                    </div>
+                                </div> --}}
+                            {{-- </div> --}}
                         </div>
                     </nav>
                 </div>
