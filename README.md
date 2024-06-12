@@ -28,7 +28,8 @@ BakulFresh is a web-based application that allow users to order fresh ingredient
 5. Delivery - User can track the status of their order.
 
 ## Sequence Diagram To Represent The Interaction Of The Proposed Web Application
-![sequence-diagram-1](https://github.com/imcatiqah/webapp_group2/assets/170592429/85eb20c6-f8fa-4ed7-880a-b97260dae105)
+![sequencediagram](https://github.com/zikryzulkipli/projectgroup2/assets/103840094/f6af5d6b-d4fa-4791-83d9-aea33a93e6c6)
+
 
 ## Project System Captured Screen And Explanation
 
