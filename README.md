@@ -32,6 +32,11 @@ BakulFresh is a web-based application that allow users to order fresh ingredient
 
 
 ## Project System Captured Screen And Explanation
+![Screenshot 2024-06-13 073042](https://github.com/zikryzulkipli/projectgroup2/assets/170592429/02654774-9365-444c-b7dd-6af22c9502b5)
+![Screenshot 2024-06-13 073104](https://github.com/zikryzulkipli/projectgroup2/assets/170592429/913c9d3c-f842-42ca-9533-89272f0c1db3)
+![Screenshot 2024-06-13 073118](https://github.com/zikryzulkipli/projectgroup2/assets/170592429/0908ae15-6747-43db-9ac8-468d1998a8e7)
+![Screenshot 2024-06-13 073149](https://github.com/zikryzulkipli/projectgroup2/assets/170592429/4274d784-2da5-45f6-8b3f-7bb789a26fb6)
+![Screenshot 2024-06-13 073158](https://github.com/zikryzulkipli/projectgroup2/assets/170592429/1564be16-ff9e-4b45-8df4-50cd1880488e)
 
 ## Challenges/Difficulties To Develop The Application
 1. The usage of Github is quite challenging for first time user especially understanding its concept(push, pull, commit and etc).
