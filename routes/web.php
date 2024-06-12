@@ -1,28 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\customerController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Route::get('/product', function () {
-    return view('product');
-});
+Route::get('/index', [CustomerController::class, 'showIndex']);
+Route::get('/shop', [CustomerController::class, 'showShop']);
+Route::get('/checkout', [CustomerController::class, 'showCheckout'])->name('checkout');
+Route::get('/cart', [CustomerController::class, 'showCart']);
+Route::get('/contact', [CustomerController::class, 'showContact']);
 
-Route::get('/checkout', function () {
-    return view('checkout');
-});
-
-
-
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+Route::resource ('billing', customerController::class);
